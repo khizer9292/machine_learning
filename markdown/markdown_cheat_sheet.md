@@ -1,33 +1,39 @@
-# 1- Headings 
-How to give headings in markdown file 
+
+# 1- Headings
+
+How to give headings in markdown file
 
 # Heading-1
-## Heading-2
-### Heading-3
-####  Heading-4
 
+## Heading-2
+
+### Heading-3
+
+#### Heading-4
 
 # 2-Block of code
-This is the normal test in markdown
->This is the special text in markdown
 
+This is the normal text in markdown
+>This is the special text in markdown\
 >This is the 2nd special text in markdown\
 
 this is the python course of 40 days with ammar bhi named as\
 **python ka chila**
 
 # 3-Combine Two things
+
 Block of words and headings
+
 ># heading 2
 
+# 4- Face of text
 
-# 4- Face of text 
 >**Bold**\
 >*Italic*\
 >***Bold and Italic***
 
-
 # 5- With other symbols
+
 we are also using other symbols("_"):
 >__Bold__\
 >_Italic_\
@@ -35,20 +41,21 @@ we are also using other symbols("_"):
 
 
 # 6- Bullet points/ list
-- Day1 
+
+- Day1
 - Day2
 - Day3
-   - day3a 
+   - day3a
       - subheadings
    - day3b
      - subheadings
 
 > List in numbering
 
-1.  Day1 
-2.  Day2
-3.  Day3
-   
+1. Day1
+2. Day2
+3. Day3
+
 > __we can also use the * or + for this purpose of creating the list__
 
 * Day1
@@ -56,16 +63,16 @@ we are also using other symbols("_"):
 + day1
 + day2
 
+#  7- Line Breaks or page breaks
 
-#  7- Line Breaks or page breaks 
 this is the first page.
 ___
 ---
 ***
 this is the  second page.
 
+# 8- Links and HyperLinks
 
-# 8- Links and HyperLinks 
 <http://www.google.com>\
 [python](https://www.python.org/)
 
@@ -73,6 +80,7 @@ this is the  second page.
 this is link of google is [here][google]
 
 # 9- Images and figures With links
+
 This how we paste the QR code in markdown\
 This is the QR code of the GOOGLE
 ![QR](Google_QR.png)
@@ -92,10 +100,10 @@ Online Image Link:
 To Print some this in python we use:\
  `print("Khizer Rehman")`
 
-
 ```python
 import pandas as pd
 ```
+
 >This code show the different color.
 
 ```python
@@ -106,6 +114,7 @@ print(x)
 print(y)
 print(z)
 ```
+
 # 11- Adding the Table in markdown
 
 |Name |Class |Marks|
@@ -118,6 +127,7 @@ print(z)
 >This is who we create tables in markdown
 
 # 12- Table Contents
+
 [1- Heading](#1--headings)\
 [2- Block of code](#2-block-of-code)\
 [3- Combine Two things](#3-combine-two-things)\
@@ -132,8 +142,7 @@ print(z)
 [12- Table of content](#12--table-contents)\
 [13- Install the Extentions](#13--install-the-extentions)
 
-
-# 13- Install the Extentions 
+# 13- Install the Extentions
 
 **Simple text**
 
