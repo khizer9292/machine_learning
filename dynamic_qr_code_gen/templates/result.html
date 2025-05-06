@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>QR Result</title></head>
+<body>
+  <h2>Your Dynamic QR Code</h2>
+  <img src="{{ qr_path }}" alt="QR Code"><br>
+  <p>Scan or go to: 
+    <a href="https://6a29-39-61-32-75.ngrok-free.app/q/{{ qr_id }}">
+      https://6a29-39-61-32-75.ngrok-free.app/q/{{ qr_id }}
+    </a>
+  </p>
+  <p><a href="/edit/{{ qr_id }}">Edit this link</a></p>
+</body>
+</html>
+
