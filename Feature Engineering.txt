@@ -1,0 +1,108 @@
+Feature Engineering:
+
+
+Checking the data
+Creating new features
+ML model testing on that features
+Iteration Recreating features
+Feature selection
+
+
+Domain knowledge:
+  i. Metadata
+  ii. full forms of columns
+  iii. numeric Units
+  iv. create layout of feature engineering process
+ 
+
+2. Data preprocessing:
+  i. handling missing data
+  - Imputing missing values
+  ii. Outliers detection and handling
+
+3. Numarical features:
+  i. How many numeric features there
+  ii. extract reality of numeric features
+  iii. normalizing the numeric features
+  - log transform
+  - scaling the data
+  - binning the data
+  iv. handle the skewness of data
+
+4. Categorical Features:
+Type of categorical features:
+i. Numerical (Binary)
+ii. Ordinal
+
+Encoding based on category type:
+i. Label encoder
+ii. one hot encoder
+iii. Target encoder
+iv. Binary encoding
+
+5. Date and Time Feature:
+dd.mm.yyyy    format of date
+i. Reformat the data
+ii. ss.mm.hh  dd.mm.yyyy
+   hh.mm.ss  dd.mm.yyyy
+iii. splitting the data to understand
+iv. Binning
+v. calculate cyclic time
+vi. Month Leap year
+
+
+6. Text Feature:
+
+i. NLP Basics
+tokenization
+vectorization
+TF vs IDF
+Bag of words
+words embedding
+
+7. Image Features:
+
+Computer vision data
+Tensorflow (TF)
+
+8. Feature Selection:
+i. Filter method
+	basic stat
+		correlation
+		pearson/ spearman's
+ 
+ii. wrapper method 
+	ML algo
+	forward selection
+	backward elimination
+	Recursive feature elimination 
+	Exhaustive feature selection 
+	  
+	
+	
+iii. Embedded method 
+	filter + wrapper
+	select feature during model training process
+		decision tree / random forest 
+		GBMs Gradient boosting machine 
+	
+	
+	
+iv. Dimensionality reduction
+	PCA(principle computing analysis)
+	SVM()
+	T-SNE
+	LDA(linear dicreminent analysis)
+	NMF (Non negative matrix facturization)
+
+
+v. Regularization method 
+	Lasso regression
+	ridge regression 
+
+vi. Deep learning method
+	autoencoder 
+	transfer learning 
+ 
+
+
